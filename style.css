@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #111;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #002868, #bf0a30);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Navigation */
+nav {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav .container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #002868;
+  font-weight: 700;
+}
+
+nav a:hover {
+  color: #bf0a30;
+}
+
+/* Fighters Section */
+#fighters {
+  padding: 4rem 0;
+  background-color: #e6f0ff;
+}
+
+#fighters h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #002868;
+}
+
+.fighter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.fighter-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.fighter-card:hover {
+  transform: translateY(-5px);
+}
+
+.fighter-card img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.fighter-card h3 {
+  margin: 0.5rem 0;
+  color: #bf0a30;
+}
+
+.fighter-card p {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* About Section */
+#about {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+#about h2 {
+  color: #002868;
+  margin-bottom: 1rem;
+}
+
+#about p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Contact Section */
+#contact {
+  padding: 4rem 0;
+  background-color: #002868;
+  color: white;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 1rem;
+}
+
+#contact p {
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  padding: 2rem 0;
+  text-align: center;
+  background-color: #bf0a30;
+  color: white;
+}
